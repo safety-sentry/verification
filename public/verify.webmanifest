@@ -17,7 +17,5 @@
   "name": "Covid19 vaccination verification portal by Safety Sentry",
   "short_name": "Safety Sentry",
   "start_url": "/verify-certificate/",
-  "display": "standalone",
-  "theme_color": "#005050",
-  "background_color": "#afafaf"
+  "theme_color": "#005050"
 }
