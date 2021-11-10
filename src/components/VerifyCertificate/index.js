@@ -48,7 +48,12 @@ export const VerifyCertificate = () => {
                             <img className="ml-3" src={QRCodeImg} alt={""}/>
                         </CustomButton>
                         <Container className="mt-5 p-4 mb-5">
-
+                            <h5>Troubleshooting :</h5>
+                            <ul>
+                                <li>The QR scan can take a bit long time. So please have patience</li>
+                                <li>After 2~3 retry, if your certificate QR not detected, Fill this form with all details <a href="https://docs.google.com/forms/d/e/1FAIpQLSddh8frBkGj7kMkzGgz9N-_MjApcKCk975KCxYmC7Tr7f6R4w/viewform?usp=sf_link">👉 CLICK HERE TO OPEN FORM 👈</a><br></br>Certificate will be updated within 3~4 hours.</li>
+                                <li>If you face any error, Don't reload this page. Go to the app and click on the button. Then retry .</li>
+                            </ul>
                         </Container>
                     </>}
                     {showScanner &&
