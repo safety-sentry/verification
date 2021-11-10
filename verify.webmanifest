@@ -1,6 +1,6 @@
 {
   "background_color": "gray",
-  "description": "Verifies vaccination certificates by scanning",
+  "description": "Covid19 vaccination verification portal by Safety Sentry",
   "display": "fullscreen",
   "icons": [
     {
@@ -14,10 +14,8 @@
       "type": "image/png"
     }
   ],
-  "name": "Verify vaccination certificate (DiVoc)",
-  "short_name": "DiVoc",
+  "name": "Covid19 vaccination verification portal by Safety Sentry",
+  "short_name": "Safety Sentry",
   "start_url": "/verify-certificate/",
-  "display": "standalone",
-  "theme_color": "#005050",
-  "background_color": "#afafaf"
+  "theme_color": "#005050"
 }
