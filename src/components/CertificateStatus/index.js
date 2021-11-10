@@ -169,7 +169,7 @@ export const CertificateStatus = ({certificateData, goBack}) => {
           // TODO ! Update route
           let config = {
             method: 'post',
-            url: 'https://safetysentry.xyz/covid_upload',
+            url: 'https://api.safetysentry.xyz/covid_upload',
             headers: { 
               'token': getCookie("token"), 
               'Content-Type': 'application/json'
