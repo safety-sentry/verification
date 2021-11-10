@@ -47,7 +47,7 @@
           <i class="checkmark">✓</i>
         </div>
           <h2>🥳 Successful 🥳</h2> 
-          <p id="message">We received your purchase request;<br/> we'll be in touch shortly!</p>
+          <p id="message"></p>
         </div>
     <script>
         function getParameterByName(name, url = window.location.href) {
@@ -59,9 +59,11 @@
             return decodeURIComponent(results[2].replace(/\+/g, ' '));
         }
 
-        document.getElementById("message").innerText = getParameterByName("message");
-
-
+        var message = getParameterByName("message");
+        if(message == undefined || message == ""){
+          message = "You can leave this page";
+        }
+        document.getElementById("message").innerHTML = message;
     </script>
 </body>
 </html>
